@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to LITERARYLOOM</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background-color: #f4f4f4;
+        }
+
+        .container {
+            text-align: center;
+            padding: 50px;
+        }
+
+        .logo img {
+            width: 200px;
+        }
+
+        .brand {
+            margin-top: 20px;
+        }
+
+        .brand h1 {
+            font-size: 36px;
+            color: #333;
+            margin-bottom: 20px;
+        }
+
+        .brand p {
+            font-size: 24px;
+            color: #666;
+            margin-bottom: 40px;
+        }
+
+        .brand span {
+            display: inline-block;
+            font-size: 36px;
+            color: #007bff;
+            text-transform: uppercase;
+            animation: flip 2s infinite;
+        }
+
+        @keyframes flip {
+            0%, 80% {
+                transform: rotateY(360deg);
+            }
+        }
+
+        .buttons {
+            margin-top: 20px;
+        }
+
+        .buttons a {
+            text-decoration: none;
+            margin: 10px;
+        }
+
+        .signup, .login {
+            padding: 10px 20px;
+            font-size: 18px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .signup:hover, .login:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="logo">
+            <img src="logo.png" alt="Literary Loom Logo">
+        </div>
+        <div class="brand">
+            <h1>Welcome to</h1>
+            <p>LITERARYLOOM</p>
+            <div class="waviy">
+                <span>L</span>
+                <span>I</span>
+                <span>T</span>
+                <span>E</span>
+                <span>R</span>
+                <span>A</span>
+                <span>R</span>
+                <span>Y</span>
+                <span>L</span>
+                <span>O</span>
+                <span>O</span>
+                <span>M</span>
+            </div>
+        </div>
+        <div class="buttons">
+            <a href="signup.html"><button class="signup">Sign Up</button></a>
+            <a href="login.html"><button class="login">Log In</button></a>
+        </div>
+    </div>
+</body>
+</html>
